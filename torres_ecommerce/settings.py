@@ -131,6 +131,8 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+print("This is our database")
+print(DATABASES)
 
 
 # Password validation
